@@ -12,7 +12,7 @@ session_name = "akkaunt_data"
 
 app = Client(session_name, api_id=api_id, api_hash=api_hash)
 
-async def forward_last_message():
+async def forward_last_message(app, SOURCE_CHAT_ID, TARGET_CHAT_ID):
     async for message in app.get_chat_history(SOURCE_CHAT_ID, limit=1):
         if message:
             await app.forward_messages(
