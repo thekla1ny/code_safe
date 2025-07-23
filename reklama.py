@@ -30,5 +30,3 @@ async def main_loop():
         while True:
             await forward_last_message()
             await asyncio.sleep(3600)
-
-asyncio.run(main_loop())
