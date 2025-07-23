@@ -1,7 +1,7 @@
 from pyrogram import Client
 import asyncio
 
-TARGET_CHAT_ID = -1002528469664
+TARGET_CHAT_ID = -1001984966725
 SOURCE_CHAT_ID = "me"
 
 print("авторизация через телеграм. надо ввести данные. Создал @KingOfInsanity")
