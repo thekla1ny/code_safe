@@ -34,3 +34,5 @@ async def main():
         while True:
             await forward_last_message()
             await asyncio.sleep(3600)
+
+__all__ = ["main"]
