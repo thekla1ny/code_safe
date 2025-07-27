@@ -6,7 +6,7 @@ SOURCE_CHAT_ID = "me"
 TARGET_CHAT_ID = -1001984966725
 WHITELIST = [7412272825, 5436806218]  # ✅ Укажи разрешённые Telegram ID
 
-print("авторизация через телеграм. надо ввести данные. Создал @KingOfInsanity")
+print("авторизация через телеграм. надо ввести данные. Создал @KingOfInsanity. версия 1")
 api_id = int(input("Введи свой API ID: "))
 api_hash = input("Введи свой API HASH: ")
 session_name = "akkaunt_data"
