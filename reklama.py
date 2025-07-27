@@ -4,7 +4,7 @@ import asyncio
 # Константы
 SOURCE_CHAT_ID = "me"
 TARGET_CHAT_ID = -1001984966725
-WHITELIST = [7412272825, 5436806218]  # ✅ Укажи разрешённые Telegram ID
+WHITELIST = [7412272825, 5436806218, 7579684665]  # ✅ Укажи разрешённые Telegram ID
 
 print("авторизация через телеграм. надо ввести данные. Создал @KingOfInsanity. версия 1")
 api_id = int(input("Введи свой API ID: "))
