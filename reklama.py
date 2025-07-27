@@ -15,7 +15,6 @@ session_name = "akkaunt_data"
 async def get_user_id():
     async with Client(session_name, api_id=api_id, api_hash=api_hash) as app:
         user = await app.get_me()
-        print(f"👤 Ваш Telegram ID: {user.id}")
         return user.id
 
 # Основная логика пересылки
